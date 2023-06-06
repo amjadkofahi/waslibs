@@ -15,7 +15,7 @@ namespace AppStudio.Uwp.Controls
             this.VerticalContentAlignment = VerticalAlignment.Center;
         }
 
-        private Size _currentSize = new Size(BitmapCache.MIDRESOLUTION, BitmapCache.MIDRESOLUTION);
+        private Size _currentSize = new Size(BitmapCache.IRRESOLUTION, BitmapCache.IRRESOLUTION);
 
         protected override Size MeasureOverride(Size availableSize)
         {
